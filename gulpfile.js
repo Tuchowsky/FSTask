@@ -60,21 +60,6 @@ gulp.task('html', function(){
     .pipe(reload({stream: true}));
 });
    
-
-//ES6 task
-// gulp.task('es6', function(){
-//     return gulp.src('app/')
-// });
-
-
-// ////////////////////////////////////////////////
-// Build Tasks
-// // /////////////////////////////////////////////
-
-// ////////////////////////////////////////////////
-// Build Tasks
-// // /////////////////////////////////////////////
-
 // clean out all files and folders from build folder
 gulp.task('build:cleanfolder', function () {
     return gulp.src('*.*', {read: false})
